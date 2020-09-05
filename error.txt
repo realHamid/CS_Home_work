@@ -1,0 +1,12 @@
+[27-Jul-2020 21:31:00 Asia/Kabul] PHP Notice:  Undefined index: username in C:\wamp\www\web\p\is_login.php on line 5
+[27-Jul-2020 21:31:00 Asia/Kabul] PHP Stack trace:
+[27-Jul-2020 21:31:00 Asia/Kabul] PHP   1. {main}() C:\wamp\www\web\p\is_login.php:0
+[27-Jul-2020 21:33:49 Asia/Kabul] PHP Notice:  Trying to get property of non-object in C:\wamp\www\web\p\is_login.php on line 12
+[27-Jul-2020 21:33:49 Asia/Kabul] PHP Stack trace:
+[27-Jul-2020 21:33:49 Asia/Kabul] PHP   1. {main}() C:\wamp\www\web\p\is_login.php:0
+[27-Jul-2020 21:34:24 Asia/Kabul] PHP Notice:  Trying to get property of non-object in C:\wamp\www\web\p\is_login.php on line 12
+[27-Jul-2020 21:34:24 Asia/Kabul] PHP Stack trace:
+[27-Jul-2020 21:34:24 Asia/Kabul] PHP   1. {main}() C:\wamp\www\web\p\is_login.php:0
+[27-Jul-2020 21:34:42 Asia/Kabul] PHP Notice:  Trying to get property of non-object in C:\wamp\www\web\p\is_login.php on line 12
+[27-Jul-2020 21:34:42 Asia/Kabul] PHP Stack trace:
+[27-Jul-2020 21:34:42 Asia/Kabul] PHP   1. {main}() C:\wamp\www\web\p\is_login.php:0
