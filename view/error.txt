@@ -365,3 +365,14 @@ Stack trace:
 [28-Jul-2020 00:42:48 Asia/Kabul] PHP Notice:  Undefined variable: row in C:\wamp\www\web\p\view\is_lockscreen.php on line 16
 [28-Jul-2020 00:42:48 Asia/Kabul] PHP Stack trace:
 [28-Jul-2020 00:42:48 Asia/Kabul] PHP   1. {main}() C:\wamp\www\web\p\view\is_lockscreen.php:0
+[10-Sep-2020 23:44:52 Asia/Kabul] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::real_escape_string() in C:\wamp\www\mono\cs\config\functions.php:13
+Stack trace:
+#0 C:\wamp\www\mono\cs\view\is_lockscreen.php(5): VD('12345')
+#1 {main}
+  thrown in C:\wamp\www\mono\cs\config\functions.php on line 13
+[10-Sep-2020 23:45:18 Asia/Kabul] PHP Notice:  Undefined property: PDOStatement::$num_rows in C:\wamp\www\mono\cs\view\is_lockscreen.php on line 12
+[10-Sep-2020 23:45:18 Asia/Kabul] PHP Stack trace:
+[10-Sep-2020 23:45:18 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\is_lockscreen.php:0
+[10-Sep-2020 23:45:22 Asia/Kabul] PHP Notice:  Undefined property: PDOStatement::$num_rows in C:\wamp\www\mono\cs\view\is_lockscreen.php on line 12
+[10-Sep-2020 23:45:22 Asia/Kabul] PHP Stack trace:
+[10-Sep-2020 23:45:22 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\is_lockscreen.php:0

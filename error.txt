@@ -10,3 +10,12 @@
 [27-Jul-2020 21:34:42 Asia/Kabul] PHP Notice:  Trying to get property of non-object in C:\wamp\www\web\p\is_login.php on line 12
 [27-Jul-2020 21:34:42 Asia/Kabul] PHP Stack trace:
 [27-Jul-2020 21:34:42 Asia/Kabul] PHP   1. {main}() C:\wamp\www\web\p\is_login.php:0
+[10-Sep-2020 23:45:31 Asia/Kabul] PHP Notice:  Undefined property: PDOStatement::$num_rows in C:\wamp\www\mono\cs\is_login.php on line 12
+[10-Sep-2020 23:45:31 Asia/Kabul] PHP Stack trace:
+[10-Sep-2020 23:45:31 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\is_login.php:0
+[10-Sep-2020 23:45:33 Asia/Kabul] PHP Notice:  Undefined property: PDOStatement::$num_rows in C:\wamp\www\mono\cs\is_login.php on line 12
+[10-Sep-2020 23:45:33 Asia/Kabul] PHP Stack trace:
+[10-Sep-2020 23:45:33 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\is_login.php:0
+[10-Sep-2020 23:45:37 Asia/Kabul] PHP Notice:  Undefined property: PDOStatement::$num_rows in C:\wamp\www\mono\cs\is_login.php on line 12
+[10-Sep-2020 23:45:37 Asia/Kabul] PHP Stack trace:
+[10-Sep-2020 23:45:37 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\is_login.php:0
