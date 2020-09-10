@@ -4,6 +4,9 @@
 
 	if(isset($_POST['insertion'])){
 
+
+        $photo =  save_file('user',last_id('users'));
+
 	    $data = [
 	        'fullname' =>  VD($_POST['fullname']),
 	        'username' =>  VD($_POST['username']),
@@ -12,7 +15,7 @@
 	        'email'    =>  VD($_POST['email']),
 	        'date'     =>  VD($_POST['date']),
 	        'note'     =>  VD($_POST['note']),
-            'photo'    => 'notwok'
+            'photo'    =>  $photo
         ];
 
 		// validation username 
@@ -23,32 +26,6 @@
 //		}
 		// end validation usename
 
-
-//		$get_last_id  = $db->query(" SELECT id FROM users ORDER BY id DESC limit 1  ");
-//		if($get_last_id->num_rows > 0 ){
-//			$last_id = $get_last_id->fetch_array()['id'];
-//		}else {
-//			$last_id = 1;
-//		}
-//
-//		$img = "";
-//
-//		if(!empty($_FILES['photo']['name'])){
-//
-//			if(!file_exists("../upload/user/".$last_id))
-//				mkdir("../upload/user/".$last_id);
-//
-//			$ext = substr($_FILES['photo']['name'], strripos($_FILES['photo']['name'], '.'));
-//			$file_name = $last_id."_photo".$ext;
-//			$destination = "../upload/user/$last_id/$file_name";
-//			if(move_uploaded_file($_FILES['photo']['tmp_name'],$destination)){
-//				$img = $destination;
-//			}else {
-//				$img="../upload/user/default.png";
-//			}
-//		}else{
-//			$img="../upload/user/default.png";
-//		}
 
 		$insert = insert('users',$data);
 		if($insert){
@@ -81,7 +58,10 @@
 
     if (isset($_POST['id']) AND isset($_POST['edit'])) {
 
-		$id 				= base64_decode($_POST['id']);
+		$id 	    = base64_decode($_POST['id']);
+        $path       = VD($_POST['lastphoto']);
+
+		$photo  = replace_file('user',$id,$path);
 
         $data = [
             'fullname' =>  VD($_POST['fullname']),
@@ -91,7 +71,7 @@
             'email'    =>  VD($_POST['email']),
             'date'     =>  VD($_POST['date']),
             'note'     =>  VD($_POST['note']),
-            'photo'    => 'notwok'
+            'photo'    => $photo
         ];
 
 
