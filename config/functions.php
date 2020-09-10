@@ -99,6 +99,54 @@ function delete ($table , $rowId , $error = false ){
     }
 }
 
+function last_id ($table){
+    global $db;
+    $sql = "SELECT count(id) as num_row FROM `$table` ";
+    $number = $db->query($sql);
+    $number = $number->fetch()['num_row'];
+    return ($number > 0 ) ? $number + 1 : 1 ;
+}
+
+function save_file($dir_name,$last_id, $file_name_v = 'photo'){
+
+    if(!empty($_FILES[$file_name_v]['name'])){
+
+        if(!file_exists("../upload/$dir_name/".$last_id))
+            mkdir("../upload/$dir_name/".$last_id);
+
+        $ext = substr($_FILES[$file_name_v]['name'], strripos($_FILES[$file_name_v]['name'], '.'));
+        $file_name = $last_id."_photo".$ext;
+        $destination = "../upload/$dir_name/$last_id/$file_name";
+        if(move_uploaded_file($_FILES[$file_name_v]['tmp_name'],$destination)){
+            $img = $destination;
+        }else {
+            $img="../upload/$dir_name/default.png";
+        }
+    }else{
+        $img="../upload/$dir_name/default.png";
+    }
+
+    return $img;
+}
+
+function delete_file($path){
+    if(file_exists($path)){
+        if(unlink($path)){
+            return true;
+        }else {
+            return false;
+        }
+    }else {
+        return  "nothing";
+    }
+}
+
+function replace_file($dir_name, $last_id , $path ,  $file_name_v = 'photo'){
+    delete_file($path);
+    save_file($dir_name,$last_id,$file_name_v);
+}
+
+
 
 //function select($table , $condition , $action  ){
 //    global $db;
@@ -113,6 +161,5 @@ function delete ($table , $rowId , $error = false ){
 //    $data = $db->query("SELECT * FROM  `$table` ORDER by id DESC ")->fetchAll();
 //    return $data;
 //}
-
 
 ?>
