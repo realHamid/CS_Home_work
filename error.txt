@@ -19,3 +19,34 @@
 [10-Sep-2020 23:45:37 Asia/Kabul] PHP Notice:  Undefined property: PDOStatement::$num_rows in C:\wamp\www\mono\cs\is_login.php on line 12
 [10-Sep-2020 23:45:37 Asia/Kabul] PHP Stack trace:
 [10-Sep-2020 23:45:37 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\is_login.php:0
+[10-Sep-2020 23:48:52 Asia/Kabul] PHP Notice:  Undefined property: PDOStatement::$num_rows in C:\wamp\www\mono\cs\is_login.php on line 12
+[10-Sep-2020 23:48:52 Asia/Kabul] PHP Stack trace:
+[10-Sep-2020 23:48:52 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\is_login.php:0
+[10-Sep-2020 23:49:47 Asia/Kabul] PHP Notice:  Undefined index: username in C:\wamp\www\mono\cs\is_login.php on line 5
+[10-Sep-2020 23:49:47 Asia/Kabul] PHP Stack trace:
+[10-Sep-2020 23:49:47 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\is_login.php:0
+[10-Sep-2020 23:49:47 Asia/Kabul] PHP Notice:  Undefined index: password in C:\wamp\www\mono\cs\is_login.php on line 6
+[10-Sep-2020 23:49:47 Asia/Kabul] PHP Stack trace:
+[10-Sep-2020 23:49:47 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\is_login.php:0
+[10-Sep-2020 23:51:28 Asia/Kabul] PHP Notice:  Undefined index: username in C:\wamp\www\mono\cs\is_login.php on line 5
+[10-Sep-2020 23:51:28 Asia/Kabul] PHP Stack trace:
+[10-Sep-2020 23:51:28 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\is_login.php:0
+[10-Sep-2020 23:51:28 Asia/Kabul] PHP Notice:  Undefined index: password in C:\wamp\www\mono\cs\is_login.php on line 6
+[10-Sep-2020 23:51:28 Asia/Kabul] PHP Stack trace:
+[10-Sep-2020 23:51:28 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\is_login.php:0
+[10-Sep-2020 23:51:57 Asia/Kabul] PHP Notice:  Undefined index: username in C:\wamp\www\mono\cs\is_login.php on line 5
+[10-Sep-2020 23:51:57 Asia/Kabul] PHP Stack trace:
+[10-Sep-2020 23:51:57 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\is_login.php:0
+[10-Sep-2020 23:51:57 Asia/Kabul] PHP Notice:  Undefined index: password in C:\wamp\www\mono\cs\is_login.php on line 6
+[10-Sep-2020 23:51:57 Asia/Kabul] PHP Stack trace:
+[10-Sep-2020 23:51:57 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\is_login.php:0
+[10-Sep-2020 23:52:28 Asia/Kabul] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in C:\wamp\www\mono\cs\is_login.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\mono\cs\is_login.php on line 13
+[10-Sep-2020 23:56:40 Asia/Kabul] PHP Notice:  Undefined index: username in C:\wamp\www\mono\cs\is_login.php on line 5
+[10-Sep-2020 23:56:40 Asia/Kabul] PHP Stack trace:
+[10-Sep-2020 23:56:40 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\is_login.php:0
+[10-Sep-2020 23:56:40 Asia/Kabul] PHP Notice:  Undefined index: password in C:\wamp\www\mono\cs\is_login.php on line 6
+[10-Sep-2020 23:56:40 Asia/Kabul] PHP Stack trace:
+[10-Sep-2020 23:56:40 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\is_login.php:0

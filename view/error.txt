@@ -376,3 +376,12 @@ Stack trace:
 [10-Sep-2020 23:45:22 Asia/Kabul] PHP Notice:  Undefined property: PDOStatement::$num_rows in C:\wamp\www\mono\cs\view\is_lockscreen.php on line 12
 [10-Sep-2020 23:45:22 Asia/Kabul] PHP Stack trace:
 [10-Sep-2020 23:45:22 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\is_lockscreen.php:0
+[10-Sep-2020 23:59:29 Asia/Kabul] PHP Notice:  Trying to get property of non-object in C:\wamp\www\mono\cs\view\add_user.php on line 166
+[10-Sep-2020 23:59:29 Asia/Kabul] PHP Stack trace:
+[10-Sep-2020 23:59:29 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\add_user.php:0
+[10-Sep-2020 23:59:48 Asia/Kabul] PHP Notice:  Trying to get property of non-object in C:\wamp\www\mono\cs\view\add_user.php on line 166
+[10-Sep-2020 23:59:48 Asia/Kabul] PHP Stack trace:
+[10-Sep-2020 23:59:48 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\add_user.php:0
+[11-Sep-2020 00:00:02 Asia/Kabul] PHP Notice:  Trying to get property of non-object in C:\wamp\www\mono\cs\view\add_user.php on line 166
+[11-Sep-2020 00:00:02 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 00:00:02 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\add_user.php:0

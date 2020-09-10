@@ -8,7 +8,7 @@
         exit();
     }
 
-    if( !isset($_SESSION['user_id']) || !isset($_SESSION['user_name']) || $_SESSION['auth'] != "b58ac01c6c7a9fb5ffd1a5d9c7d68955-HV" ){
+    if( !isset($_SESSION['user_id']) || !isset($_SESSION['user_name']) || $_SESSION['auth'] != "b58ac01c6c7a9fb5ffd1a5d9c7d68955" ){
         header("location: ../");
         exit();
     }

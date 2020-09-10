@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> به سیستم شیرین کام خوش آمدید </title>
+        <title> سیستم مدریت املاک  </title>
         <link rel="shortcut icon" href="assets/dist/img/ico/favicon.png" type="image/x-icon">
         <!-- Bootstrap -->
         <link href="view/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
