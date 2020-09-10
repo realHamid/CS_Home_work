@@ -1,10 +1,10 @@
 <?php require_once( '_config.php' )?>
 
 <?php 
-    if (isset($_GET['id']) && !empty($_GET['id']) ) {
+    if (!empty($_GET['id']) ) {
         $id = base64_decode($_GET['id']);
-        $sql = $db->query("SELECT * FROM `users` WHERE `id` = '$id' AND `deleted` = '0' limit 1 " );
-        $row = $sql->fetch_array();
+        $sql = $db->query("SELECT * FROM `users` WHERE `id` = '$id'  limit 1 " );
+        $row = $sql->fetch();
     }else {
         header("location: add_user.php");
         exit();
@@ -25,7 +25,8 @@
         <?php  require_once("_nav.php"); ?>
         <!-- / Sideer -->
         <?php 
-            $menu = "ADMIN";
+            $menu    = "ADMIN";
+            $subMenu = "LIST";
             require_once("_sidebar.php");
         ?>
         
@@ -52,7 +53,7 @@
                 <div class="row">
                     
                     <div class="col-sm-12 col-md-12">
-                        <div class="panel panel-inverse lobidisable">
+                        <div class="panel panel-success lobidisable">
                             
                             <div class="panel-heading">
                                 <div class="panel-title">
@@ -72,7 +73,7 @@
                                     <div class="form-group">
                                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="photo">عکس قبلی<span class="required"></span></label>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <img alt="../upload/user/default.png" style="width: 150px;" src="<?php if(isset($row['photo'])) echo $row['photo']; ?>" class="thumbnail">
+                                            <img alt="بدون عکس " style="width: 150px;" src="<?php if(isset($row['photo'])) echo $row['photo']; ?>"   class="thumbnail">
                                         </div>
                                     </div>
                                      
@@ -147,7 +148,7 @@
                                     <div class="form-group">
                                         <div class="col-lg-9 col-lg-offset-3">
                                             <button type="submit" class="btn btn-warning w-md m-b-5 bfont"> &nbsp;<i class="fa fa-edit"> </i> ویرایش کردن </button>
-                                            <a href="add_user.php" class="btn btn-danger w-md m-b-5 bfont"> &nbsp; <i class="fa fa-arrow-left"> </i> لغو ویرایش </a>
+                                            <a href="list_users.php" class="btn btn-danger w-md m-b-5 bfont"> &nbsp; <i class="fa fa-arrow-left"> </i> لغو ویرایش </a>
                                         </div>
                                     </div>
                                 </form>

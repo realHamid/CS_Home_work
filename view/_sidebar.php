@@ -12,11 +12,11 @@
                 </a>
             </li>
 
-            <li class="active">
-                <a href="#" class="material-ripple"><i class="material-icons">local_shipping</i> موقعیت   <span class="fa arrow"></span></a>
+            <li class="<?php if(!empty($menu) and $menu == 'ADMIN' ) echo "active" ?>">
+                <a href="#" class="material-ripple"><i class="material-icons">local_shipping</i>  ادمین    <span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
-                    <li class="active"><a href="tr_vehicle.php"> ثبت موقعیت </a></li>
-                    <li ><a href="tr_dv.php"> لیست موقعیت </a></li>
+                    <li class="<?php if(!empty($menu) and !empty($subMenu) and $subMenu == 'ADD')  echo 'active'?>"><a href="add_user.php"> ثبت ادمین  </a></li>
+                    <li class="<?php if(!empty($menu) and !empty($subMenu) and $subMenu == 'LIST') echo 'active'?>" ><a href="list_users.php"> لیست ادمین </a></li>
                 </ul>
             </li>
             

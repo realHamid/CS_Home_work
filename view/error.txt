@@ -385,3 +385,54 @@ Stack trace:
 [11-Sep-2020 00:00:02 Asia/Kabul] PHP Notice:  Trying to get property of non-object in C:\wamp\www\mono\cs\view\add_user.php on line 166
 [11-Sep-2020 00:00:02 Asia/Kabul] PHP Stack trace:
 [11-Sep-2020 00:00:02 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\add_user.php:0
+[11-Sep-2020 00:05:43 Asia/Kabul] PHP Notice:  Trying to get property of non-object in C:\wamp\www\mono\cs\view\add_user.php on line 166
+[11-Sep-2020 00:05:43 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 00:05:43 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\add_user.php:0
+[11-Sep-2020 00:06:40 Asia/Kabul] PHP Notice:  Trying to get property of non-object in C:\wamp\www\mono\cs\view\add_user.php on line 166
+[11-Sep-2020 00:06:40 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 00:06:40 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\add_user.php:0
+[11-Sep-2020 00:06:50 Asia/Kabul] PHP Notice:  Trying to get property of non-object in C:\wamp\www\mono\cs\view\add_user.php on line 166
+[11-Sep-2020 00:06:50 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 00:06:50 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\add_user.php:0
+[11-Sep-2020 00:06:59 Asia/Kabul] PHP Notice:  Trying to get property of non-object in C:\wamp\www\mono\cs\view\add_user.php on line 166
+[11-Sep-2020 00:06:59 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 00:06:59 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\add_user.php:0
+[11-Sep-2020 00:07:06 Asia/Kabul] PHP Notice:  Trying to get property of non-object in C:\wamp\www\mono\cs\view\add_user.php on line 166
+[11-Sep-2020 00:07:06 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 00:07:06 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\add_user.php:0
+[11-Sep-2020 00:07:18 Asia/Kabul] PHP Notice:  Trying to get property of non-object in C:\wamp\www\mono\cs\view\add_user.php on line 166
+[11-Sep-2020 00:07:18 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 00:07:18 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\add_user.php:0
+[11-Sep-2020 00:11:45 Asia/Kabul] PHP Notice:  Trying to get property of non-object in C:\wamp\www\mono\cs\view\add_user.php on line 166
+[11-Sep-2020 00:11:45 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 00:11:45 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\add_user.php:0
+[11-Sep-2020 00:13:14 Asia/Kabul] PHP Notice:  Undefined property: PDOStatement::$num_rows in C:\wamp\www\mono\cs\view\add_user.php on line 166
+[11-Sep-2020 00:13:14 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 00:13:14 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\add_user.php:0
+[11-Sep-2020 00:17:46 Asia/Kabul] PHP Notice:  Undefined property: PDOStatement::$num_rows in C:\wamp\www\mono\cs\view\add_user.php on line 167
+[11-Sep-2020 00:17:46 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 00:17:46 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\add_user.php:0
+[11-Sep-2020 00:19:06 Asia/Kabul] PHP Notice:  Undefined property: PDOStatement::$num_rows in C:\wamp\www\mono\cs\view\add_user.php on line 167
+[11-Sep-2020 00:19:06 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 00:19:06 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\add_user.php:0
+[11-Sep-2020 00:19:36 Asia/Kabul] PHP Notice:  Undefined property: PDOStatement::$num_rows in C:\wamp\www\mono\cs\view\add_user.php on line 167
+[11-Sep-2020 00:19:36 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 00:19:36 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\add_user.php:0
+[11-Sep-2020 00:20:26 Asia/Kabul] PHP Notice:  Undefined property: PDOStatement::$num_rows in C:\wamp\www\mono\cs\view\list_users.php on line 71
+[11-Sep-2020 00:20:26 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 00:20:26 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\list_users.php:0
+[11-Sep-2020 00:21:03 Asia/Kabul] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::numRows() in C:\wamp\www\mono\cs\view\list_users.php:70
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\mono\cs\view\list_users.php on line 70
+[11-Sep-2020 00:23:01 Asia/Kabul] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in C:\wamp\www\mono\cs\view\edit_user.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\mono\cs\view\edit_user.php on line 7
+[11-Sep-2020 00:23:32 Asia/Kabul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in C:\wamp\www\mono\cs\view\edit_user.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\mono\cs\view\edit_user.php on line 7
+[11-Sep-2020 00:30:08 Asia/Kabul] PHP Notice:  Undefined property: PDOStatement::$num_rows in C:\wamp\www\mono\cs\view\add_user.php on line 167
+[11-Sep-2020 00:30:08 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 00:30:08 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\add_user.php:0
