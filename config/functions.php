@@ -143,7 +143,7 @@ function delete_file($path){
 
 function replace_file($dir_name, $last_id , $path ,  $file_name_v = 'photo'){
     delete_file($path);
-    save_file($dir_name,$last_id,$file_name_v);
+    return save_file($dir_name,$last_id,$file_name_v);
 }
 
 
