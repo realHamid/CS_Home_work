@@ -18,7 +18,7 @@ if(isset($_POST['insertion'])){
     $insert = insert('provinces',$data);
 
     if($insert){
-        header("location: add_province.php?seved");
+        header("location: add_province.php?saved");
         exit();
     }else{
         header("location: add_province.php?error");

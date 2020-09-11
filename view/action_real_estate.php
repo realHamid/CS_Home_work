@@ -26,7 +26,7 @@ if(isset($_POST['insertion'])) {
     $insert = insert('real_estates',$data);
 
     if($insert){
-        header("location: add_real_estate.php?seved");
+        header("location: add_real_estate.php?saved");
         exit();
     }else{
         header("location: add_real_estate.php?error");

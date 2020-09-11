@@ -19,7 +19,7 @@
 
 		$insert = insert('users',$data);
 		if($insert){
-			header("location: add_user.php?seved");
+			header("location: add_user.php?saved");
 			exit();
 		}else{
 			header("location: add_user.php?error");

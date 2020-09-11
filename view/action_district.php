@@ -20,7 +20,7 @@ if(isset($_POST['insertion'])){
     $insert = insert('districts',$data);
 
     if($insert){
-        header("location: add_district.php?seved");
+        header("location: add_district.php?saved");
         exit();
     }else{
         header("location: add_district.php?error");

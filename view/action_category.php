@@ -14,7 +14,7 @@ if(isset($_POST['insertion'])) {
     $insert = insert('categories',$data);
 
     if($insert){
-        header("location: add_category.php?seved");
+        header("location: add_category.php?saved");
         exit();
     }else{
         header("location: add_category.php?error");
