@@ -6,7 +6,7 @@
                 <span>  خوش آمدیدی   [  <?php echo $user_name ?>  ] </span>
             </li>
 
-            <li>
+            <li class="<?php if(!empty($menu) and $menu == 'HOME' ) echo "active" ?>">
                 <a href="index.php" class="material-ripple ">
                     <i class="material-icons">home</i> خانه  
                 </a>
