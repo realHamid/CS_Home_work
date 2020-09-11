@@ -37,6 +37,14 @@
                 </ul>
             </li>
 
+            <li class="<?php if(!empty($menu) and $menu == 'CATEGORY' ) echo "active" ?>">
+                <a href="#" class="material-ripple"><i class="material-icons">local_shipping</i>  دسته بندی      <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li class="<?php if(!empty($menu) and $menu == 'CATEGORY' and !empty($subMenu) and $subMenu == 'ADD')  echo 'active'?>"><a href="add_category.php"> ثبت دسته بندی   </a></li>
+                    <li class="<?php if(!empty($menu) and $menu == 'CATEGORY' and !empty($subMenu) and $subMenu == 'LIST') echo 'active'?>" ><a href="list_category.php"> لیست دسته بندی   </a></li>
+                </ul>
+            </li>
+
         </ul>
     </div>
     <!-- /.sidebar-collapse -->
