@@ -27,8 +27,16 @@
                     <li class="<?php if(!empty($menu) and $menu == 'PROVINCE' and !empty($subMenu) and $subMenu == 'LIST') echo 'active'?>" ><a href="list_province.php"> لیست ولایت  </a></li>
                 </ul>
             </li>
-            
-            
+
+
+            <li class="<?php if(!empty($menu) and $menu == 'DISTRICT' ) echo "active" ?>">
+                <a href="#" class="material-ripple"><i class="material-icons">local_shipping</i>  ولاسوالی     <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li class="<?php if(!empty($menu) and $menu == 'DISTRICT' and !empty($subMenu) and $subMenu == 'ADD')  echo 'active'?>"><a href="add_district.php"> ثبت ولاسوالی  </a></li>
+                    <li class="<?php if(!empty($menu) and $menu == 'DISTRICT' and !empty($subMenu) and $subMenu == 'LIST') echo 'active'?>" ><a href="list_district.php"> لیست ولاسوالی  </a></li>
+                </ul>
+            </li>
+
         </ul>
     </div>
     <!-- /.sidebar-collapse -->
