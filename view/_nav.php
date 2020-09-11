@@ -42,3 +42,5 @@
         </ul> 
     </div>
 </nav>
+
+<?php require_once ('_alert_query.php');?>
