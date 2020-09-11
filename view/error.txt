@@ -436,3 +436,36 @@ Stack trace:
 [11-Sep-2020 00:30:08 Asia/Kabul] PHP Notice:  Undefined property: PDOStatement::$num_rows in C:\wamp\www\mono\cs\view\add_user.php on line 167
 [11-Sep-2020 00:30:08 Asia/Kabul] PHP Stack trace:
 [11-Sep-2020 00:30:08 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\add_user.php:0
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP Notice:  Undefined index: name in C:\wamp\www\mono\cs\view\list_province.php on line 73
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\list_province.php:0
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP Notice:  Undefined index: name in C:\wamp\www\mono\cs\view\list_province.php on line 73
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\list_province.php:0
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP Notice:  Undefined index: name in C:\wamp\www\mono\cs\view\list_province.php on line 73
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\list_province.php:0
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP Notice:  Undefined index: name in C:\wamp\www\mono\cs\view\list_province.php on line 73
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\list_province.php:0
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP Notice:  Undefined index: name in C:\wamp\www\mono\cs\view\list_province.php on line 73
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\list_province.php:0
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP Notice:  Undefined index: name in C:\wamp\www\mono\cs\view\list_province.php on line 73
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\list_province.php:0
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP Notice:  Undefined index: name in C:\wamp\www\mono\cs\view\list_province.php on line 73
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\list_province.php:0
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP Notice:  Undefined index: name in C:\wamp\www\mono\cs\view\list_province.php on line 73
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 15:46:13 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\list_province.php:0
+[11-Sep-2020 15:46:31 Asia/Kabul] PHP Notice:  Undefined index: photo in C:\wamp\www\mono\cs\view\list_province.php on line 72
+[11-Sep-2020 15:46:31 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 15:46:31 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\list_province.php:0
+[11-Sep-2020 15:46:31 Asia/Kabul] PHP Notice:  Undefined index: photo in C:\wamp\www\mono\cs\view\list_province.php on line 72
+[11-Sep-2020 15:46:31 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 15:46:31 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\list_province.php:0
+[11-Sep-2020 15:57:16 Asia/Kabul] PHP Notice:  Undefined index: photo in C:\wamp\www\mono\cs\view\edit_province.php on line 70
+[11-Sep-2020 15:57:16 Asia/Kabul] PHP Stack trace:
+[11-Sep-2020 15:57:16 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\edit_province.php:0
