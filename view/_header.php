@@ -29,3 +29,7 @@
 
 <!-- for load one file  -->
 <link rel="stylesheet" type="text/css" href="assets/LoadImg/assets/css/loadimg.css">
+
+
+<!-- alert  -->
+<link rel="stylesheet" type="text/css" href="assets/jquery-confirm/jquery-confirm.min.css">

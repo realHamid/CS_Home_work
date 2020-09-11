@@ -35,6 +35,35 @@
 <!-- end load one img  -->
 
 
+<!-- alert  -->
+<script type="text/javascript" src="assets/jquery-confirm/jquery-confirm.min.js"></script>
+<script type="text/javascript" >
+    $(".deleted").click(function(e){
+        e.preventDefault();
+        const c_url =  $(this).attr('href');
+
+        $.confirm({
+            title: '<span class="bfont text-danger" > هشدار!   </span> ',
+            content: '<span class="cfont text-warning" style="font-size: 20px" >  ریکارد مورد نظر حذف خواهد شد ؟  </span> ',
+            buttons: {
+                تایید:  {
+                    btnClass: 'btn-blue',
+                    action : function(){
+                        window.location = c_url;
+                    }
+                },
+                لغو:  {
+                    btnClass: 'btn-red',
+                    action : function () {
+                    }
+                }
+            }
+        });
+    });
+</script>
+
+
+
 <script>
 
     $(document).ready(function(){
