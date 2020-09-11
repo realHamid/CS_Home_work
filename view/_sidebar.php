@@ -45,6 +45,14 @@
                 </ul>
             </li>
 
+            <li class="<?php if(!empty($menu) and $menu == 'REAL_ESTATES' ) echo "active" ?>">
+                <a href="#" class="material-ripple"><i class="material-icons">local_shipping</i>   املاک      <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li class="<?php if(!empty($menu) and $menu == 'REAL_ESTATES' and !empty($subMenu) and $subMenu == 'ADD')  echo 'active'?>"><a href="add_real_estate.php"> ثبت املاک   </a></li>
+                    <li class="<?php if(!empty($menu) and $menu == 'REAL_ESTATES' and !empty($subMenu) and $subMenu == 'LIST') echo 'active'?>" ><a href="list_real_estate.php"> لیست املاک </a></li>
+                </ul>
+            </li>
+
         </ul>
     </div>
     <!-- /.sidebar-collapse -->
