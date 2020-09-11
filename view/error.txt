@@ -486,3 +486,9 @@ Stack trace:
 [12-Sep-2020 00:29:36 Asia/Kabul] PHP Notice:  Undefined index: name in C:\wamp\www\mono\cs\view\action_province.php on line 65
 [12-Sep-2020 00:29:36 Asia/Kabul] PHP Stack trace:
 [12-Sep-2020 00:29:36 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\action_province.php:0
+[12-Sep-2020 01:46:05 Asia/Kabul] PHP Notice:  Trying to get property of non-object in C:\wamp\www\mono\cs\view\is_lockscreen.php on line 12
+[12-Sep-2020 01:46:05 Asia/Kabul] PHP Stack trace:
+[12-Sep-2020 01:46:05 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\is_lockscreen.php:0
+[12-Sep-2020 01:46:10 Asia/Kabul] PHP Notice:  Trying to get property of non-object in C:\wamp\www\mono\cs\view\is_lockscreen.php on line 12
+[12-Sep-2020 01:46:10 Asia/Kabul] PHP Stack trace:
+[12-Sep-2020 01:46:10 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\is_lockscreen.php:0
