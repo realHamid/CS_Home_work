@@ -83,6 +83,7 @@
                                                     <td class ="text-center">'.$row['owner_name'].'</td>
                                                     <td class ="text-center">'.$row['owner_number'].'</td>
                                                     <td class="text-center">
+                                                        <a class="btn btn-success btn-sm " onclick="details('.$row['id'].')" title="جزعیات"  ><i class="fa  fa-info"></i></a>
                                                         <a class="btn btn-info btn-sm" href="edit_real_estate.php?id='.base64_encode($row['id']).'" ><i class="fa  fa-edit"></i></a>
                                                         <a class="btn btn-danger btn-sm deleted" href="action_real_estate.php?delete&id='.base64_encode($row['id']).'" ><i class="fa  fa-trash-o"></i></a>
                                                     </td>
@@ -109,6 +110,50 @@
     </div><!-- /#page-wrapper -->
 </div><!-- /#wrapper -->
 <!-- START CORE PLUGINS -->
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h1 class="modal-title bfont"> مشخصات املاک  </h1>
+            </div>
+            <div class="modal-body">
+                <table class="table table-striped">
+                    <tbody id="tbody-data">
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer" dir="rtl">
+                <button type="button" class="btn btn-danger bfont" data-dismiss="modal"> بستن  </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 <?php  require_once("_script.php"); ?>
+<script>
+    function details(id) {
+
+
+        $.ajax({
+            url : 'ajax_real_estate.php',
+            method: "post",
+            data : {
+                id
+            },success:function (response) {
+                $('#tbody-data').html(response);
+                $('#myModal').modal('show');
+            }
+        })
+
+
+    }
+
+
+</script>
+
+
 </body>
 </html>
