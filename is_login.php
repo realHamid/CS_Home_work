@@ -20,7 +20,7 @@
             $_SESSION['auth']           = "b58ac01c6c7a9fb5ffd1a5d9c7d68955";
             $_SESSION['user_username']  = $row['username'];
 
-            header("location: view/add_user.php");
+            header("location: view/index.php");
             exit();
 
         }else {

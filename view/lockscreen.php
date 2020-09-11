@@ -12,7 +12,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> شیرین کام  </title>
+        <title> قفل صفحه  </title>
         <link rel="shortcut icon" href="assets/dist/img/ico/favicon.png" type="image/x-icon">
         <!-- Bootstrap -->
         <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -51,7 +51,7 @@
                         <input class="form-control bfont" name="password" placeholder="Password" type="password">
                         <i class="fa fa-key"></i>
                         <span class="input-group-btn"> 
-                            <button type="submit" class="btn btn-success bfont">Log In</button> 
+                            <button type="submit" class="btn btn-success bfont"> ورود  </button>
                         </span>
                     </div>
                 </div>
