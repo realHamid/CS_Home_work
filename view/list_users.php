@@ -31,7 +31,7 @@
                 <div class="header-title">
                     <h1 class="bfont">  لیست ادمین   </h1>
                     <ol class="breadcrumb">
-                        <li><a href="index.html">ادمین</a></li>
+                        <li><a href="index.html">خانه </a></li>
                         <li class="active">لیست  ادمین</li>
                     </ol>
                 </div>
