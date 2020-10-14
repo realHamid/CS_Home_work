@@ -6,7 +6,7 @@
             <i class="material-icons">apps</i>
         </button>
         <a class="navbar-brand" href="index.html">
-            <img class="main-logo" src="assets/dist/img/light-logo.png" id="bg" alt="">
+            <!-- <img class="main-logo" src="assets/dist/img/light-logo.png" id="bg" alt=""> -->
         </a>
     </div>
     

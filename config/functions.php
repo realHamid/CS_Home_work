@@ -148,18 +148,23 @@ function replace_file($dir_name, $last_id , $path ,  $file_name_v = 'photo'){
 
 
 
-//function select($table , $condition , $action  ){
-//    global $db;
-//
-//    $temp_condition = '';
-//    $temp_data = [];
-//    foreach ($condition as $id =>  $row ){
-//        $temp_condition .= "`$row[0]` $row[1] :$row[1] ";
-//        $temp_data[$id] = [$row[0],$row[2]];
-//    }
-//
-//    $data = $db->query("SELECT * FROM  `$table` ORDER by id DESC ")->fetchAll();
-//    return $data;
-//}
+function select($table , $condition , $action  ){
+   global $db;
+
+   $temp_condition = '';
+   $temp_data = [];
+   foreach ($condition as $id =>  $row ){
+       $temp_condition .= "`$row[0]` $row[1] :$row[1] ";
+       $temp_data[$id] = [$row[0],$row[2]];
+   }
+
+   $condatain_where = '';
+   if(count($condition) < 0 ){
+        $columns_where = 'where';
+   }
+
+   $data = $db->query("SELECT * FROM  `$table` $columns_where $temp_condition ORDER by id DESC ")->fetchAll();
+   return $data;
+}
 
 ?>

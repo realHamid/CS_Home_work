@@ -54,7 +54,7 @@
                             <form id="validation-form" class="form-horizontal form-label-left" method="post" enctype="multipart/form-data" action="action_real_estate.php">
 
                                 <input type="hidden" name="insertion" value="1">
-                                <span class="bfont" style="font-size: 20px;margin-right: 30px;"> مشخصات املاک    </span>
+                                <span class="bfont" style="font-size: 20px;margin-right: 30px;"> مشخصات ملک    </span>
 
                                 <div class="form-group">
                                     <label class="control-label col-md-3 col-sm-12 col-xs-12 col-lg-3" for="photo">عکس  <span class="required"></span></label>
@@ -102,7 +102,7 @@
                                 </div>
 
 
-                                <span class="bfont" style="font-size: 20px;margin-right: 30px;">  موقعیت املاک    </span>
+                                <span class="bfont" style="font-size: 20px;margin-right: 30px;">  موقعیت ملک    </span>
                                 <hr />
 
 
@@ -146,7 +146,7 @@
                                     </div>
                                 </div>
 
-                                <span class="bfont" style="font-size: 20px;margin-right: 30px;">  مشخصات صاحب املاک     </span>
+                                <span class="bfont" style="font-size: 20px;margin-right: 30px;">  مشخصات صاحب ملک     </span>
                                 <hr />
 
                                 <div class="item form-group">
