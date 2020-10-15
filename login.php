@@ -1,3 +1,15 @@
+<?php
+
+//var_dump($_COOKIE);
+//exit();
+
+    require_once ("config/db.php");
+    if(isset($_COOKIE['userName']) and isset($_COOKIE['password'])){
+        header("location: is_login.php");
+        exit();
+    }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -58,6 +70,14 @@
                                     <input id="pass" type="password" autocomplete="off" class="form-control" name="password" placeholder="******">
                                 </div>
                             </div>
+
+                            <div>
+                                <div class="checkbox checkbox-success">
+                                    <input id="checkbox3" name="remeberme" value="1" type="checkbox">
+                                    <label for="checkbox3">به خاطر بسپار</label>
+                                </div>
+                            </div>
+
 
                             <div>
                                 <button type="submit" class="btn btn-primary pull-right bfont"> ورود  </button>
