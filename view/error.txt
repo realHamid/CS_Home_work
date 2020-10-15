@@ -498,3 +498,43 @@ Stack trace:
 [12-Sep-2020 02:26:42 Asia/Kabul] PHP Notice:  Undefined property: PDOStatement::$num_rows in C:\wamp\www\mono\cs\view\is_lockscreen.php on line 12
 [12-Sep-2020 02:26:42 Asia/Kabul] PHP Stack trace:
 [12-Sep-2020 02:26:42 Asia/Kabul] PHP   1. {main}() C:\wamp\www\mono\cs\view\is_lockscreen.php:0
+[15-Oct-2020 21:51:17 Asia/Kabul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on boolean in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php:223
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php on line 223
+[15-Oct-2020 21:51:32 Asia/Kabul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on boolean in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php:223
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php on line 223
+[15-Oct-2020 21:51:48 Asia/Kabul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on boolean in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php:223
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php on line 223
+[15-Oct-2020 21:52:46 Asia/Kabul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on boolean in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php:221
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php on line 221
+[15-Oct-2020 21:52:57 Asia/Kabul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on boolean in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php:221
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php on line 221
+[15-Oct-2020 21:53:02 Asia/Kabul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on boolean in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php:221
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php on line 221
+[15-Oct-2020 21:54:17 Asia/Kabul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on boolean in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php:221
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php on line 221
+[15-Oct-2020 21:54:30 Asia/Kabul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on boolean in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php:221
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php on line 221
+[15-Oct-2020 21:54:48 Asia/Kabul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on boolean in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php:221
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php on line 221
+[15-Oct-2020 22:00:20 Asia/Kabul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on boolean in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php:222
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\mono\cs_home_work\view\list_real_estate.php on line 222
